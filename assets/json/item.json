@@ -1,0 +1,60 @@
+{
+  "data":[
+    {
+      "id" : 1,
+      "name": "Dưa hấu",
+      "description" : "Dưa hấu ruột đỏ",
+      "price" : 30.000,
+      "image" : "https://cdnv2.tgdd.vn/bhx-static/bhx/Products/Images/8788/283839/bhx/cdntgddvnproductsimages8788270325bhxdua-hau-do-trai-tu-18kg-tro-len-202211040812248181_202409091048592518.jpg"
+    },
+    {
+      "id" : 2,
+      "name": "Bưởi da xanh",
+      "description" : "Bưởi da xanh",
+      "price" : 40.000,
+      "image" : "https://cdnv2.tgdd.vn/bhx-static/bhx/Products/Images/8788/223418/bhx/gggb_202412181028370834.jpg"
+    },
+    {
+      "id" : 3,
+      "name": "Thanh long",
+      "description" : "Thanh long ruột đỏ",
+      "price" : 25.000,
+      "image" : "https://cdn.tgdd.vn/Products/Images/8788/230504/bhx/thanh-long-ruot-do-tui-1kg-202101271553536099.jpg"
+    },
+    {
+      "id" : 4,
+      "name": "Cam sành",
+      "description" : "Cam sành",
+      "price" : 50.000,
+      "image" : "https://cdn.tgdd.vn/Products/Images/8788/321604/bhx/cam-sanh-202401201943148305.jpg"
+    },
+    {
+      "id" : 5,
+      "name": "Chuối sứ",
+      "description" : "Chuối sứ",
+      "price" : 19.000,
+      "image" : "https://cdn.tgdd.vn/Products/Images/8788/232743/bhx/chuoi-su-trai-tu-40g-90g-202408201632531023.jpg"
+    },
+    {
+      "id" : 6,
+      "name": "Nho",
+      "description" : "Nho mẫu đơn",
+      "price" : 119.000,
+      "image" : "https://cdnv2.tgdd.vn/bhx-static/bhx/Products/Images/8788/333324/bhx/httpscdnv2tgddvnbhx-staticbhxproductsimages8788311425bhxbs9a9153202412171939538864_202412190851095279.jpg"
+    },
+    {
+      "id" : 7,
+      "name": "Mít",
+      "description" : "Mít Thái",
+      "price" : 45.000,
+      "image" : "https://cdn.tgdd.vn/Products/Images/8788/255326/bhx/mit-thai-tui-1kg-202211040850277493.jpg"
+    },
+    {
+      "id" : 8,
+      "name": "Xoài keo",
+      "description" : "Xoài keo",
+      "price" : 17.000,
+      "image" : "https://cdn.tgdd.vn/Products/Images/8788/233096/bhx/xoai-keo-tui-1kg-202012311612444485.jpg"
+    }
+]
+}

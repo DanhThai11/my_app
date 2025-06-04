@@ -1,0 +1,46 @@
+// Tệp: android/build.gradle (cấp dự án gốc)
+
+buildscript {
+    // Xác định phiên bản Kotlin và các biến khác nếu cần
+    ext.kotlin_version = '1.9.22' // Hoặc phiên bản Kotlin bạn đang dùng (kiểm tra dự án của bạn)
+
+    repositories {
+        // Gradle cần các kho này để tìm plugin cho chính nó (buildscript dependencies)
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // Khai báo classpath cho các plugin Gradle
+        // Thay thế bằng phiên bản Android Gradle Plugin (AGP) phù hợp với dự án của bạn
+        classpath 'com.android.tools.build:gradle:8.2.2' // Ví dụ: kiểm tra phiên bản mới nhất
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // Đây là classpath cho plugin google-services mà Gradle đang không tìm thấy
+        // Thay '4.4.2' bằng phiên bản mới nhất nếu bạn muốn (ví dụ: 4.4.1 hoặc kiểm tra trên trang Firebase)
+        classpath 'com.google.gms:google-services:4.4.2'
+
+        // Plugin Flutter Gradle (thường được Flutter tự động quản lý hoặc bạn có thể thấy nó ở đây)
+        // classpath "dev.flutter.flutter-gradle-plugin:..."
+    }
+}
+
+allprojects {
+    repositories {
+        // Các kho này dành cho dependencies của các mô-đun trong dự án (như :app)
+        google()
+        mavenCentral()
+        // Bạn có thể có các repositories khác ở đây nếu cần, ví dụ:
+        // maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/' }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app') // Sửa lỗi chính tả: evaluationDependsOn
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
