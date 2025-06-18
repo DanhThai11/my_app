@@ -1,16 +1,38 @@
-# my_app
+# 📱 My App
 
-A new Flutter project.
+Một ứng dụng di động đơn giản được phát triển với mục đích học tập và thực hành. Dự án này sử dụng công nghệ Flutter (hoặc bạn thay đổi nếu không đúng) để xây dựng giao diện người dùng và cấu trúc dựa trên mô hình MVC.
 
-## Getting Started
+## 🚀 Tính năng nổi bật
 
-This project is a starting point for a Flutter application.
+- [x] Giao diện người dùng đơn giản, dễ sử dụng
+- [x] Điều hướng giữa các màn hình (navigation)
+- [x] Quản lý trạng thái cơ bản (State Management)
+- [x] Hiển thị danh sách và chi tiết item
+- [x] Tương tác người dùng (nút bấm, nhập liệu,...)
+- [x] Đăng nhập bằng facebook, google bằng firebase authentication
+- [x] Quản lý dữ liệu bằng firestore database 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Công nghệ sử dụng
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Dart programming language
+
+
+## 🧑‍💻 Cách chạy ứng dụng
+# Clone repository
+git clone https://github.com/DanhThai11/my_app.git
+cd my_app
+
+# Cài đặt các package
+flutter pub get
+
+# Chạy ứng dụng
+flutter run
+
+📬 Liên hệ
+Danh Thái
+Email: danhthai11112003@gmail.com
+GitHub: github.com/DanhThai11
+
+
