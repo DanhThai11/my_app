@@ -20,9 +20,10 @@ Một ứng dụng di động đơn giản được phát triển với mục đ
 
 
 ## 🧑‍💻 Cách chạy ứng dụng
+
 # Clone repository
-git clone https://github.com/DanhThai11/my_app.git
-cd my_app
+- git clone https://github.com/DanhThai11/my_app.git
+- cd my_app
 
 # Cài đặt các package
 flutter pub get
@@ -32,7 +33,7 @@ flutter run
 
 📬 Liên hệ
 Danh Thái
-Email: danhthai11112003@gmail.com
-GitHub: github.com/DanhThai11
+- Email: danhthai11112003@gmail.com
+- GitHub: github.com/DanhThai11
 
 
