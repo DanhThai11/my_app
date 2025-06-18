@@ -1,6 +1,6 @@
 # 📱 My App
 
-Một ứng dụng di động đơn giản được phát triển với mục đích học tập và thực hành. Dự án này sử dụng công nghệ Flutter (hoặc bạn thay đổi nếu không đúng) để xây dựng giao diện người dùng và cấu trúc dựa trên mô hình MVC.
+Một ứng dụng di động bán hàng trực tuyến đơn giản được phát triển với mục đích học tập và thực hành. Dự án này sử dụng công nghệ Flutter để xây dựng giao diện người dùng và cấu trúc dựa trên mô hình MVC.
 
 ## 🚀 Tính năng nổi bật
 
@@ -19,20 +19,21 @@ Một ứng dụng di động đơn giản được phát triển với mục đ
 - Dart programming language
 
 
-## 🧑‍💻 Cách chạy ứng dụng
+# 🧑‍💻 Cách chạy ứng dụng
 
-# Clone repository
+## Clone repository
 - git clone https://github.com/DanhThai11/my_app.git
 - cd my_app
 
-# Cài đặt các package
+## Cài đặt các package
 flutter pub get
 
-# Chạy ứng dụng
+## Chạy ứng dụng
 flutter run
 
+
 📬 Liên hệ
-Danh Thái
+- Danh Thái
 - Email: danhthai11112003@gmail.com
 - GitHub: github.com/DanhThai11
 
